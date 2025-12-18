@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +25,8 @@
     "node-fetch": "^3.3.2",
     "nodemailer": "^6.9.14",
     "stripe": "^14.23.0",
+  }
+  "engines":{
     "node": "^22.7.0"
   }
 }
