@@ -25,7 +25,7 @@
     "node-fetch": "^3.3.2",
     "nodemailer": "^6.9.14",
     "stripe": "^14.23.0",
-  }
+  },
   "engines":{
     "node": "^22.7.0"
   }
